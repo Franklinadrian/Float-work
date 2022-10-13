@@ -1,0 +1,50 @@
+.row{
+height: 200px;
+ float: right;
+
+}
+.road{
+background-color: red;
+}
+#rom{
+  float: left;
+}
+img{
+  height: 200px;
+}
+.main{
+  display: grid;
+  grid-template-columns: 3em 100px 20%;
+  gap: 10px;
+  grid-template-rows: 200px auto;
+}
+.un{
+  grid-column: 1/4;
+  border: 2px solid;
+  grid-row: 1;
+}
+.bi{
+  grid-column: 4/7;
+  border: 2px solid;
+  grid-row: 1/3;
+}
+.tri{
+  grid-column: 1/4;
+  border: 2px solid;
+  grid-row: 2/7;
+}
+.quatre{
+  grid-column: 5/7;
+  border: 2px solid;
+  grid-row: 3/5;
+}
+.pent{
+  grid-column: 4;
+  border: 2px solid;
+  grid-row: 6;
+}
+.hex{
+  grid-column: 5/7;
+  border: 2px solid;
+  grid-row: 6/7;
+}
